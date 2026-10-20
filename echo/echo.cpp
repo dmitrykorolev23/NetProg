@@ -6,7 +6,7 @@
 #include <sys/time.h>
 #include <unistd.h>
 
-constexpr const char* SERVER_IP = "172.16.40.13";
+constexpr const char* SERVER_IP = "172.16.40.1";
 constexpr unsigned short SERVER_PORT = 7;
 
 bool sendAll(int socketFd, const std::string& message)
